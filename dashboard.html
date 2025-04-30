@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="navigation">
+        <nav>
+          <div class="nav-brand">
+            <img src="./images/logo.png" alt="" />
+            <a href="#" class="brand-name"
+              >SE
+              <div class="dot"></div>
+              T</a
+            >
+          </div>
+          <ul>
+            <li>
+              <img src="./images/Home.png" alt="" />
+              <p class="active">overview</p>
+            </li>
+            <li>
+              <img src="./images/Category.png" alt="" />
+              <p>course</p>
+            </li>
+            <li>
+              <img src="./images/Folder.png" alt="" />
+              <p>resources</p>
+            </li>
+            <li>
+              <img src="./images/Chat.png" alt="" />
+              <p>message</p>
+            </li>
+            <li>
+              <img src="./images/Setting.png" alt="" />
+              <p>setting</p>
+            </li>
+          </ul>
+          <div class="image">
+            <img src="./images/Group.png" alt="" />
+          </div>
+          <div class="upgrade-plan">
+            <h4>upgrade your plan</h4>
+            <div class="pro">
+              <p>Go to <span>pro</span></p>
+              <div class="box">&Gt;</div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section id="middle-section">
+        <div class="welcome-hero">
+          <h3>Hello BRUNO, welcome back!</h3>
+        </div>
+        <div class="courses">
+          <header>
+            <div class="left-header">
+              <h1>My courses</h1>
+              <p>View All</p>
+            </div>
+            <div class="right-header">
+              <span><img src="./images/search.png" alt="" /></span>
+              <p>Search...</p>
+            </div>
+          </header>
+          <div class="course-grid-container">
+            <div class="grid-box">
+              <img src="./images/french.png" alt="" />
+            </div>
+            <div class="grid-box">
+              <img src="./images/portugese.png" alt="" />
+            </div>
+            <div class="grid-box">
+              <img src="./images/italian.png" alt="" />
+            </div>
+            <div class="grid-box">
+              <img src="./images/german.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="planning">
+          <header>
+            <div class="left-header">
+              <h1>Planning</h1>
+              <p>View all</p>
+            </div>
+            <div class="right-header">
+              <span><img src="./images/vs_calendar-alt.png" alt="" /></span>
+              <p>20 March 2020</p>
+            </div>
+          </header>
+          <div class="planning-grid-container">
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(54, 159, 255, 20%)"
+              >
+                <img src="./images/book 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Reading - Beginner Topic 1</h5>
+                <p>8:00 AM - 10:00 AM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(255, 153, 58, 20%)"
+              >
+                <img src="./images/edit-2 (1).png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Reading - Beginner Topic 1</h5>
+                <p>1:00 PM - 2:00 PM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(138, 197, 62, 20%)"
+              >
+                <img src="./images/headphones 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Listening - Intermediate Topic 1</h5>
+                <p>03:00 PM - 04:00 PM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(255, 209, 67, 20%)"
+              >
+                <img src="./images/volume-1 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Speaking - Advanced Topic 1</h5>
+                <p>07:00 PM - 08:00 PM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(255, 209, 67, 20%)"
+              >
+                <img src="./images/volume-1 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Speaking - Beginner Topic 1</h5>
+                <p>8:00 AM - 12:00 PM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(138, 197, 62, 20%)"
+              >
+                <img src="./images/headphones 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Listening - Beginner Topic 1</h5>
+                <p>8:00 AM - 12:00 AM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(255, 153, 58, 20%)"
+              >
+                <img src="./images/edit-2 (1).png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Grammar - Intermediate Topic 2</h5>
+                <p>8:00 AM - 12:00 PM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+            <div class="grid-box">
+              <div
+                class="image-div"
+                style="background-color: rgba(54, 159, 255, 20%)"
+              >
+                <img src="./images/book 1.png" alt="" />
+              </div>
+              <div class="text-div">
+                <h5>Reading - Advanced Topic 1</h5>
+                <p>8:00 AM - 12:00 AM</p>
+              </div>
+              <div class="icon-div">
+                <img src="./images/more-vertical 8.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="last-section">
+        <div class="notification">
+          <div class="notification-bell">
+            <img
+              src="./images/clarity_notification-outline-badged.png"
+              alt=""
+            />
+          </div>
+          <div class="profile">
+            <img src="./images/Rectangle 4.png" alt="" class="profile-img" />
+            <div class="info">
+              <h4>Bruno Fernandes</h4>
+              <p>Basic Plan</p>
+            </div>
+            <img src="./images/chevron-down 1.png" class="icon" />
+          </div>
+        </div>
+        <div class="Statistics">
+          <header>
+            <div class="left-header">
+              <h1>Statistics</h1>
+            </div>
+          </header>
+          <div class="state-grid-container">
+            <div class="grid-box">
+              <h3>Courses Completed</h3>
+              <div class="info">
+                <div class="line"></div>
+                <div class="number">02</div>
+              </div>
+            </div>
+            <div class="grid-box">
+              <h3>Total Points Gained</h3>
+              <div class="info">
+                <div class="line"></div>
+                <div class="number">250</div>
+              </div>
+            </div>
+            <div class="grid-box">
+              <h3>Courses In Progress</h3>
+              <div class="info">
+                <div class="line"></div>
+                <div class="number">03</div>
+              </div>
+            </div>
+            <div class="grid-box">
+              <h3>Tasks Finished</h3>
+              <div class="info">
+                <div class="line"></div>
+                <div class="number">05</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activity">
+          <header>
+            <div class="left-header">
+              <h1>activity</h1>
+            </div>
+            <div class="right-header">
+              <p>day</p>
+              <p class="active">week</p>
+              <p>month</p>
+            </div>
+          </header>
+          <div class="graph">
+            <img src="./images/Group 31.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

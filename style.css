@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Manrope;
+}
+main {
+  display: flex;
+}
+/* **********Navigation Menu************** */
+#navigation {
+  width: 306px;
+  height: 100vh;
+  border-right: 5px solid #f0f0f0;
+  position: fixed;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.nav-brand {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 28px;
+}
+.nav-brand img {
+  height: 24px;
+  width: 24px;
+  margin: 0px 15px;
+}
+.nav-brand a {
+  display: flex;
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+  font-weight: 800;
+  font-family: poppins;
+  letter-spacing: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-brand .brand-name {
+  color: #006ed3;
+}
+.nav-brand .brand-name .dot {
+  width: 8px;
+  height: 8px;
+  margin: 14px 5px;
+  background-color: #369fff;
+  border-radius: 100%;
+}
+nav ul {
+  margin-left: 44px;
+}
+nav ul li {
+  display: flex;
+  margin: 45px 0px;
+}
+nav ul li img {
+  height: 24px;
+  width: 24px;
+}
+nav ul li p {
+  padding-left: 31px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  color: #bdbdbd;
+  text-transform: capitalize;
+}
+.active {
+  color: #369fff !important;
+}
+nav .image img {
+  height: 190px;
+  width: 157px;
+  margin: 0px 40px;
+}
+nav .upgrade-plan {
+  height: 88px;
+  width: 168px;
+  margin-left: 35px;
+  background-color: rgba(54, 159, 255, 10%);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+nav .upgrade-plan h4 {
+  font-family: Manrope;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #303030;
+}
+nav .upgrade-plan .pro {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #369fff;
+}
+nav .upgrade-plan .pro p {
+  padding: 9px;
+}
+nav .upgrade-plan .pro p span {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav .upgrade-plan .pro .box {
+  font-size: 12px;
+  padding: 9px 10px;
+  border: 1px solid #369fff;
+  border-radius: 10px;
+}
+
+/* ***************middle-section********* */
+#middle-section {
+  padding: 50px 50px 40px 50px;
+  border-right: 5px solid #f0f0f0;
+  transform: translateX(306px);
+  width: 800px;
+}
+
+#middle-section .welcome-hero h3 {
+  font-family: Manrope;
+  color: #369fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+header .left-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+header .left-header h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 30px 30px 20px 0px;
+}
+header .left-header p {
+  color: #369fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .right-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .right-header p {
+  font-size: 14px;
+  color: #bdbdbd;
+}
+header .right-header span img {
+  height: 20px;
+  width: 20px;
+  margin: 0px 14px;
+  padding: 0px;
+}
+.courses .course-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.courses .course-grid-container .grid-box {
+  height: 250px;
+  width: 400px;
+}
+.courses .course-grid-container .grid-box img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.planning header .right-header span img {
+  height: 24px;
+  width: 24px;
+}
+.planning .right-header p {
+  font-size: 18px;
+  color: #369fff;
+  font-weight: 600;
+}
+.planning-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 30px;
+}
+
+.planning-grid-container .grid-box {
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  height: 80px;
+  padding: 21px 15px;
+  border-radius: 16px;
+}
+.planning-grid-container .grid-box .image-div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.planning-grid-container .grid-box .image-div img {
+  height: 24px;
+  width: 24px;
+}
+.planning-grid-container .grid-box .text-div h5 {
+  font-size: 12px;
+  font-weight: 800;
+  margin: 5px;
+}
+.planning-grid-container .grid-box .text-div p {
+  color: #bdbdbd;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* *********last section********* */
+#last-section {
+  width: 600px;
+  transform: translateX(306px);
+  padding: 30px 40px 40px 40px;
+  box-sizing: border-box;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 60px;
+  width: 245px;
+  background-color: rgba(54, 159, 255, 10%);
+  border-radius: 16px;
+}
+.notification .profile .profile-img {
+  height: 40px;
+  width: 40px;
+}
+.notification .profile .info h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.notification .profile .info p {
+  font-size: 12px;
+  color: #369fff;
+  font-weight: 500;
+}
+.Statistics .state-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+.Statistics .state-grid-container .grid-box {
+  height: 230px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  background-color: rgba(54, 159, 255, 10%);
+  border-radius: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.Statistics .state-grid-container .grid-box h3 {
+  color: #8ea3b7;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Statistics .state-grid-container .grid-box .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Statistics .state-grid-container .grid-box .info .line {
+  height: 30px;
+  width: 4px;
+  background-color: #369fff;
+  border-radius: 20px;
+}
+.Statistics .state-grid-container .grid-box .info .number {
+  font-size: 50px;
+  color: rgb(0, 110, 211);
+  font-weight: 800;
+}
+.activity header .right-header p {
+  padding: 0px 15px;
+}
+.activity .graph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
